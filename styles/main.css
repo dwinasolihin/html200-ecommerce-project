@@ -20,6 +20,10 @@ nav a:hover {
   text-decoration: underline;
 }
 
+nav{
+  background-color: #CBE7F5;
+}
+
 /**************** HERO *****************/
 
 header img {
@@ -28,6 +32,22 @@ header img {
 
 h1 .logo-w {
   font-size: 3.5rem;
+}
+
+ul i{
+  padding: 1rem;
+}
+
+.logo-title-area h1{
+  text-align: center;
+}
+
+.logo-title-area img{
+  text-align: right; 
+}
+
+aside {
+  text-align: right;
 }
 
 /**************** ASIDE ****************/
@@ -44,7 +64,7 @@ input[type="submit"] {
 /*********** PRODUCTS SECTION ***********/
 
 section {
-  padding: 0 .75rem;
+  padding: 0.75rem;
 }
 
 h2 {
@@ -58,4 +78,32 @@ h3 {
   font-size: 1.2rem;
   text-align: center;
   color: #2d2d2d;
+}
+
+.description{
+  color: #2d2d2d;
+  height: 6rem;
+  width: 25rem;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.price{
+  color: #2d2d2d;
+  font-weight: bolder;
+  height: 1rem;
+  width: 25rem;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.item-container img{
+  max-height: 20rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
